@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: sweeep_left
+    shield: swweeep_left
   - board: nice_nano_v2
-    shield: sweeep_right
+    shield: swweeep_right
