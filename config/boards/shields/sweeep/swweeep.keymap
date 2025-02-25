@@ -51,33 +51,22 @@
 
         default_layer {
             bindings = <
-    &kp Q        &kp W        &kp E       &kp R         &kp T                                    &kp J  &kp L        &kp U         &kp Y       &kp SEMI
-    &kp Z        &kp X        &kp C       &kp V         &kp B                                       &kp K         &kp H        &kp COMMA     &kp DOT     &kp FSLH
-                                          &kp D       &kp F  &kp G                        &kp BSPC   &kp SPACE &kp SQT
+    &kp Q    &kp W    &kp E    &kp R                                                         &kp L        &kp U         &kp Y       &kp SEMI
+    &kp A    &kp S    &kp D    &kp F                                                         &kp K        &kp H         &kp COMMA   &kp DOT     
+                                    &kp X    &kp Y    &kp Z                           &kp BSPC   &kp SPACE    &kp SQT
             >;
         };
 
-        nav_layer {
+
+
+        extra_layer {
             bindings = <
-    &kp ESC      &kp PG_UP    &kp UP      &kp PG_DN     &trans                                      &kp ASTRK     &kp N7       &kp N8        &kp N9      &kp MINUS
-    &trans       &trans       &trans      &trans        &trans                                      &kp EQUAL     &kp N1       &kp N2        &kp N3      &kp N0
-                                          &trans        &trans       &kp TAB       &kp BSPC         &kp SPACE     &kp DOT
+    &kp Q    &kp W    &kp E    &kp R                                                         &kp L        &kp U         &kp Y       &kp SEMI
+    &kp A    &kp S    &kp D    &kp F                                                         &kp K        &kp H         &kp COMMA   &kp DOT     
+                                    &kp X    &kp Y    &kp Z                           &kp BSPC   &kp SPACE    &kp SQT
             >;
         };
 
- 
-
-
-
-
-
-        numrht_layer {
-            bindings = <
-    &trans       &trans       &trans       &trans        &trans                                      &trans      &kp N7       &kp N8        &kp N9      &kp MINUS
-    &trans       &trans       &trans       &trans        &trans                                      &trans      &kp N1       &kp N2        &kp N3      &kp N0
-                                           &trans        &trans        &trans         &trans         &trans      &trans
-            >;
-        };
 
 
     };
