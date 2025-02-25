@@ -13,9 +13,9 @@
 
         default_layer {
             bindings = <
-    &kp Q    &kp W    &kp E    &kp R                                                         &kp L        &kp U         &kp Y       &kp SEMI
-    &kp A    &kp S    &kp D    &kp F                                                         &kp K        &kp H         &kp COMMA   &kp DOT     
-                                    &kp X    &kp Y    &kp Z                           &kp BSPC   &kp SPACE    &kp SQT
+    &kp Q    &kp W    &kp E    &kp R                                                         
+    &kp A    &kp S    &kp D    &kp F                                                         
+                                    &kp X    &kp Y    &kp Z                           
             >;
         };
 
@@ -23,9 +23,9 @@
 
         extra_layer {
             bindings = <
-    &kp Q    &kp W    &kp E    &kp R                                                         &kp L        &kp U         &kp Y       &kp SEMI
-    &kp A    &kp S    &kp D    &kp F                                                         &kp K        &kp H         &kp COMMA   &kp DOT     
-                                    &kp X    &kp Y    &kp Z                           &kp BSPC   &kp SPACE    &kp SQT
+    &kp Q    &kp W    &kp E    &kp R                                                         
+    &kp A    &kp S    &kp D    &kp F                                                             
+                                    &kp X    &kp Y    &kp Z                           
             >;
         };
 

@@ -6,6 +6,6 @@
 
 #include "swweeep.dtsi"
 
-&default_transform {
-  col-offset = <18>;
-};
+//&default_transform {
+//  col-offset = <18>;
+//};

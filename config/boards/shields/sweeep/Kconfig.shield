@@ -4,5 +4,5 @@
 config SHIELD_SWWEEEP_LEFT
     def_bool $(shields_list_contains,swweeep_left)
 
-config SHIELD_SWWEEEP_RIGHT
-    def_bool $(shields_list_contains,swweeep_right)
+//config SHIELD_SWWEEEP_RIGHT
+//    def_bool $(shields_list_contains,swweeep_right)
